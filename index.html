@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Teena Make Over — Professional Makeup Courses</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="script" href="script.js" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">Teena Make Over</div>
+      <nav class="main-nav">
+        <a href="#courses">Courses</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>Professional Makeup Courses</h1>
+        <p>Seekhiye professional techniques — Bridal, Glam, HD Makeup aur bahut kuch. Flexible durations aur affordable fees.</p>
+        <a class="cta" href="#courses">Courses Dekhein</a>
+      </div>
+    </section>
+
+    <section id="courses" class="container section">
+      <h2>Courses</h2>
+      <p class="muted">Apne liye ya career ke liye best course choose karein.</p>
+
+      <div id="course-filters" class="filters">
+        <label>Duration:
+          <select id="filter-duration">
+            <option value="all">Sab</option>
+            <option value="2 weeks">2 Weeks</option>
+            <option value="1 month">1 Month</option>
+            <option value="2 months">2 Months</option>
+            <option value="3 months">3 Months</option>
+          </select>
+        </label>
+        <label>Price Range:
+          <select id="filter-price">
+            <option value="all">Sab</option>
+            <option value="low">₹0 - ₹6,000</option>
+            <option value="mid">₹6,001 - ₹12,000</option>
+            <option value="high">₹12,001+</option>
+          </select>
+        </label>
+      </div>
+
+      <div id="courses-list" class="grid"></div>
+    </section>
+
+    <section id="gallery" class="container section">
+      <h2>Gallery</h2>
+      <p class="muted">Kaam ke kuch example looks (before/after sample).</p>
+      <div class="gallery-grid">
+        <!-- Inline SVG placeholders; replace with real photos later -->
+        <figure>
+          <svg class="gallery-img" viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Makeup sample 1">
+            <rect width="100%" height="100%" fill="#f7e1e6"/>
+            <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#b03a5b" font-size="18">Sample Look 1</text>
+          </svg>
+          <figcaption>Bridal Glam</figcaption>
+        </figure>
+        <figure>
+          <svg class="gallery-img" viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Makeup sample 2">
+            <rect width="100%" height="100%" fill="#eaf2ff"/>
+            <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#1b4f8a" font-size="18">Sample Look 2</text>
+          </svg>
+          <figcaption>HD Photoshoot</figcaption>
+        </figure>
+        <figure>
+          <svg class="gallery-img" viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Makeup sample 3">
+            <rect width="100%" height="100%" fill="#fff5e6"/>
+            <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#b76a00" font-size="18">Sample Look 3</text>
+          </svg>
+          <figcaption>Evening Glam</figcaption>
+        </figure>
+        <figure>
+          <svg class="gallery-img" viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Makeup sample 4">
+            <rect width="100%" height="100%" fill="#eefde9"/>
+            <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#187f18" font-size="18">Sample Look 4</text>
+          </svg>
+          <figcaption>Natural Look</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="products" class="container section">
+      <h2>Products</h2>
+      <p class="muted">Course mein use hone wale kuch important products.</p>
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="product-img">
+            <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Foundation product">
+              <rect width="100%" height="100%" fill="#f9e6d6"/>
+              <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#8a4b2f" font-size="12">Foundation</text>
+            </svg>
+          </div>
+          <h3>HD Foundation</h3>
+          <p class="muted">Best for photoshoots</p>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img">
+            <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Brush set">
+              <rect width="100%" height="100%" fill="#eae6ff"/>
+              <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#4a2c8a" font-size="12">Brush Set</text>
+            </svg>
+          </div>
+          <h3>Professional Brush Set</h3>
+          <p class="muted">Complete 12-piece set</p>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img">
+            <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Palette">
+              <rect width="100%" height="100%" fill="#fff0f5"/>
+              <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#c23b7a" font-size="12">Palette</text>
+            </svg>
+          </div>
+          <h3>Eyeshadow Palette</h3>
+          <p class="muted">Matte & shimmer</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container section contact-section">
+      <h2>Contact / Enrollment</h2>
+      <p class="muted">Enroll karne ke liye neeche form bharein ya hume call karein.</p>
+      <form id="enroll-form" class="enroll-form">
+        <label>Naam <input type="text" id="name" required /></label>
+        <label>Phone / WhatsApp <input type="tel" id="phone" required /></label>
+        <label>Course
+          <select id="course-select"></select>
+        </label>
+        <button type="submit" class="btn">Request Enrollment</button>
+      </form>
+      <p class="muted small">Phone: +91-XXXXXXXXXX | Email: teenamakeover@example.com</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <strong>Teena Make Over</strong> — Professional Makeup Courses</p>
+    </div>
+  </footer>
+
+  <!-- Modal for course detail -->
+  <div id="course-modal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button id="modal-close" class="modal-close" aria-label="Close">&times;</button>
+      <h3 id="modal-title"></h3>
+      <p id="modal-duration-fee"></p>
+      <p id="modal-description"></p>
+      <button id="modal-enroll" class="btn">Enroll Now</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
